@@ -1,0 +1,9 @@
+{
+  "source": {
+    "include": ["src/wgl"]
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "./docs/"
+  }
+}

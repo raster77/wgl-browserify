@@ -1,0 +1,17 @@
+{
+  "name": "wgl-browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/runtests.js",
+    "watch": "watchify ./src/app.js -o ./build/bundle.js -v",
+    "doc": "jsdoc -c jsdoc.config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/webgl2": "0.0.4"
+  }
+}
